@@ -1,0 +1,90 @@
+.authContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: calc(100vh - 160px);
+  padding: 2rem;
+}
+
+.authCard {
+  width: 100%;
+  max-width: 440px;
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: 800;
+  text-align: center;
+}
+
+.subtitle {
+  color: var(--muted);
+  text-align: center;
+  margin-top: -1.5rem;
+  font-size: 0.95rem;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.inputGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.inputGroup label {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--muted);
+}
+
+.input {
+  background: var(--input-bg);
+  border: 1px solid var(--input-border);
+  border-radius: 10px;
+  padding: 0.8rem 1rem;
+  color: white;
+  font-size: 1rem;
+  transition: all 0.2s;
+}
+
+.input:focus {
+  outline: none;
+  border-color: var(--primary);
+  background: rgba(255, 255, 255, 0.08);
+}
+
+.submitBtn {
+  background: var(--primary);
+  color: white;
+  padding: 0.9rem;
+  border-radius: 10px;
+  font-weight: 700;
+  font-size: 1rem;
+  margin-top: 0.5rem;
+  transition: all 0.2s;
+}
+
+.submitBtn:hover {
+  background: var(--primary-hover);
+  transform: translateY(-1px);
+}
+
+.footer {
+  text-align: center;
+  font-size: 0.9rem;
+  color: var(--muted);
+}
+
+.link {
+  color: var(--primary);
+  font-weight: 600;
+}
