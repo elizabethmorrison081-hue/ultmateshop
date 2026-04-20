@@ -53,11 +53,29 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
+        <link rel="canonical" href="https://ultimateshop.lol" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
         <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet" />
         <link href="https://cdn.jsdelivr.net/npm/@mdi/font@7.4.47/css/materialdesignicons.min.css" rel="stylesheet" />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "Organization",
+              "name": "UltimateShop",
+              "url": "https://ultimateshop.lol",
+              "logo": "https://ultimateshop.lol/logo2.png",
+              "description": "Premium CVV and Dumps shop providing secure transactions and high-quality data.",
+              "sameAs": [
+                "https://twitter.com/ultimateshop",
+                "https://t.me/ultimateshop"
+              ]
+            })
+          }}
+        />
       </head>
       <body>
         <main>
