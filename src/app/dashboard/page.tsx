@@ -81,10 +81,11 @@ export default function DashboardPage() {
                     <img src="https://ultimateshop.net/public/assets/img/bitcoin.png" alt="BTC" width="30" height="30" />
                   </div>
                   <div>
-                    <h4 className="my-0 font-16 fw-semibold">Bitcoin - BTC (5% Fee)</h4>
+                    <h2 className="my-0 font-16 fw-semibold">Bitcoin - BTC (5% Fee)</h2>
                   </div>
                 </div>
                 <div className={styles.cardBody}>
+                  <h3 className="sr-only">Bitcoin Payment Details</h3>
                   <div className="text-center mb-3">
                     <img
                       src="https://api.qrserver.com/v1/create-qr-code/?data=bc1q9lm8hadh2uc3zzrhv7svle0d8m8ce27p4e0hyv&size=150x150"
@@ -114,10 +115,11 @@ export default function DashboardPage() {
                     <img src="https://ultimateshop.net/public/assets/img/ltcc.png" alt="LTC" width="30" height="30" />
                   </div>
                   <div>
-                    <h4 className="my-0 font-16 fw-semibold">Litecoin - LTC (3% Fee)</h4>
+                    <h2 className="my-0 font-16 fw-semibold">Litecoin - LTC (3% Fee)</h2>
                   </div>
                 </div>
                 <div className={styles.cardBody}>
+                  <h3 className="sr-only">Litecoin Payment Details</h3>
                   <div className="text-center mb-3">
                     <img
                       src="https://api.qrserver.com/v1/create-qr-code/?data=ltc1qasgpjr6fzdmr303mdkskut305qhxz2x4pc4ngz&size=150x150"

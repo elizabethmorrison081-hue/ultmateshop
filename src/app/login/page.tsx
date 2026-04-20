@@ -69,6 +69,7 @@ export default function LoginPage() {
         </div>
 
         <div className={styles.cardBody}>
+          <h2 className="sr-only">Account Authentication</h2>
           <p style={{ fontSize: '0.8rem', color: 'rgba(255,255,255,0.6)', textAlign: 'center', marginBottom: '1.5rem' }}>
             Experience the most secure and reliable shopping for premium cards and data. 
             Join thousands of satisfied members at the world's leading CVV platform.

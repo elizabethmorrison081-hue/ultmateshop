@@ -72,6 +72,7 @@ export default function RegisterPage() {
         </div>
 
         <div className={styles.cardBody}>
+          <h2 className="sr-only">Create Your Account</h2>
           <p style={{ fontSize: '0.8rem', color: 'rgba(255,255,255,0.6)', textAlign: 'center', marginBottom: '1.5rem' }}>
             Join the world's most trusted CVV shop today. 
             Create an account to gain access to high-quality data and exclusive member benefits.
@@ -146,6 +147,7 @@ export default function RegisterPage() {
             </div>
 
             <div style={{ marginBottom: "1rem" }}>
+              <h3 className="sr-only">Security Verification</h3>
               <label htmlFor="reg_verifyCode" className={styles.formLabel}>
                 Code
               </label>
