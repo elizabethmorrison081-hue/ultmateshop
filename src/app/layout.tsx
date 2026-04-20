@@ -1,6 +1,11 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
+import { Viewport } from "next";
+
+export const viewport: Viewport = {
+  width: 1200,
+};
 
 export const metadata: Metadata = {
   title: {
