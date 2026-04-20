@@ -12,10 +12,10 @@ export const viewport: Viewport = {
 
 export const metadata: Metadata = {
   title: {
-    default: "UltimateShop - Best Cvv & Dumps Shop",
-    template: "%s | UltimateShop",
+    default: "UltimateShop - Best Cvv & Dumps Shop | Premium Cards & Secure Dumps",
+    template: "%s | UltimateShop - Premium Cards & Secure Dumps",
   },
-  description: "Welcome to Ultimateshop, the best Cvv/Dumps shop also known as ultshop.",
+  description: "Welcome to Ultimateshop, the world's leading premium Cvv and Dumps shop. We provide high-quality cards, secure checkout, and 24/7 dedicated support for all our members.",
   keywords: ["cvv", "dumps", "ultimateshop", "ultshop", "cvv shop", "best dumps shop"],
   authors: [{ name: "UltimateShop Team" }],
   openGraph: {

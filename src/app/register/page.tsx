@@ -59,6 +59,9 @@ export default function RegisterPage() {
       <div className={styles.registerCard}>
         {/* Logo Section */}
         <div className={styles.cardHeader}>
+          <h1 className="sr-only">
+            Register for UltimateShop - Access Premium Cvv & Dumps
+          </h1>
           <img
             src="/logo2.png"
             alt="UltimateShop Logo"
@@ -69,6 +72,10 @@ export default function RegisterPage() {
         </div>
 
         <div className={styles.cardBody}>
+          <p style={{ fontSize: '0.8rem', color: 'rgba(255,255,255,0.6)', textAlign: 'center', marginBottom: '1.5rem' }}>
+            Join the world's most trusted CVV shop today. 
+            Create an account to gain access to high-quality data and exclusive member benefits.
+          </p>
           <div style={{ clear: "both", textAlign: "center", color: "red" }}></div>
           <br />
 

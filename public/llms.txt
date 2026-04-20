@@ -1,0 +1,15 @@
+# UltimateShop
+
+UltimateShop is a premium e-commerce platform specializing in CVV and Dumps data. We provide secure, high-quality data services for our global membership.
+
+## Core Features
+- Secure Login & Registration
+- Cryptocurrency Integration (BTC, LTC)
+- Real-time Balance Management
+- 24/7 Premium Support
+- High-quality Cards & Dumps
+
+## Links
+- [Login](https://ultimateshop.lol/login)
+- [Register](https://ultimateshop.lol/register)
+- [Dashboard](https://ultimateshop.lol/dashboard)

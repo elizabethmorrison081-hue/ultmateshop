@@ -26,11 +26,15 @@ export default function DashboardPage() {
       {/* Main Content */}
       <div className={styles.contentPage}>
         <div className="container-fluid">
+          <h1 className="sr-only">
+            UltimateShop User Dashboard - Manage Funds & Premium Services
+          </h1>
+
           {/* Information Card */}
           {isInfoVisible && (
             <div className={styles.infoCard}>
               <div className={styles.infoCardHeader}>
-                <h5 className="fw-bold mb-0">Information</h5>
+                <h2 className="fw-bold mb-0" style={{ fontSize: '1.25rem' }}>Information</h2>
                 <div className={styles.cardControls}>
                   <button 
                     className={styles.controlBtn}
@@ -65,7 +69,7 @@ export default function DashboardPage() {
             </h5>
           </div>
 
-          <h3 className={styles.tableTitle}>Add Funds</h3>
+          <h2 className={styles.tableTitle}>Add Funds</h2>
 
           {/* Crypto Cards Row */}
           <div className="row">

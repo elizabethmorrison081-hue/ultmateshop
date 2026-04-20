@@ -56,7 +56,9 @@ export default function LoginPage() {
       <div className={styles.loginCard}>
         {/* Logo Section */}
         <div className={styles.cardHeader}>
-          {/* Logo Section */}
+          <h1 className="sr-only">
+            UltimateShop Login - Best Premium Cvv & Dumps Shop
+          </h1>
           <img
             src="/logo2.png"
             alt="UltimateShop Logo"
@@ -67,6 +69,10 @@ export default function LoginPage() {
         </div>
 
         <div className={styles.cardBody}>
+          <p style={{ fontSize: '0.8rem', color: 'rgba(255,255,255,0.6)', textAlign: 'center', marginBottom: '1.5rem' }}>
+            Experience the most secure and reliable shopping for premium cards and data. 
+            Join thousands of satisfied members at the world's leading CVV platform.
+          </p>
           <form id="login-form" onSubmit={handleSubmit}>
             <div className="mb-3" style={{ marginBottom: "1rem" }}>
               <label htmlFor="LoginForm_username" className={styles.formLabel}>
