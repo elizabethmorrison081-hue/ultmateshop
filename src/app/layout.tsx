@@ -5,6 +5,9 @@ import { Viewport } from "next";
 
 export const viewport: Viewport = {
   width: 1200,
+  initialScale: 0.3,
+  minimumScale: 0.1,
+  userScalable: true,
 };
 
 export const metadata: Metadata = {
