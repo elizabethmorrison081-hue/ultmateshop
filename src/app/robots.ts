@@ -7,6 +7,6 @@ export default function robots(): MetadataRoute.Robots {
       allow: '/',
       disallow: '/dashboard/',
     },
-    sitemap: 'https://ultimateshop.net/sitemap.xml',
+    sitemap: 'https://ultimateshop.lol/sitemap.xml',
   };
 }

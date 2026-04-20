@@ -21,7 +21,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "UltimateShop - Best Cvv & Dumps Shop",
     description: "Welcome to Ultimateshop, the best Cvv/Dumps shop also known as ultshop.",
-    url: "https://ultimateshop.net",
+    url: "https://ultimateshop.lol",
     siteName: "UltimateShop",
     images: [
       {
